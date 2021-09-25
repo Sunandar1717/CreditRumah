@@ -2,6 +2,7 @@ import { Card, message } from "antd";
 import { useState } from "react";
 import { useEffect } from "react";
 import { instance } from "../api/instance";
+import FormulirDataDiri from "./PengajuanKpr";
 import PengajuanKpr from "./PengajuanKpr";
 function Home() {
   const [transaction, setTransaction] = useState(null);
@@ -18,7 +19,7 @@ function Home() {
   return (
     <div
    >
-        <PengajuanKpr/>
+        <FormulirDataDiri/>
     </div>
   );
 }
