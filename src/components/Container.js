@@ -1,6 +1,8 @@
 import { Layout,Menu, Image} from 'antd';
 import { HomeOutlined, CreditCardOutlined, LoginOutlined} from '@ant-design/icons';
 import { useHistory } from 'react-router';
+import logo from "../image/btn.png"
+
 const { Sider, Content } = Layout;
 
 function Container(props){
@@ -9,7 +11,7 @@ function Container(props){
     return(
         <Layout style={{minHeight:"100vh"}}>
         <Sider style={{backgroundColor:"white"}}>
-            <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Bank_BTN_logo.svg/2560px-Bank_BTN_logo.svg.png"  
+            <Image src={logo} 
             style={{ width: "180px", marginTop:"15px" }} />
             <Menu defaultSelectedKeys={['1']} mode="inline">
               <Menu.Item key="1" icon={<HomeOutlined />} onClick={() => history.push("/home")}>

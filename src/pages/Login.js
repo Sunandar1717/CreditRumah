@@ -1,6 +1,7 @@
 import { Card, Form, Input, Button, Typography, Image, Select, message } from "antd";
 import { useHistory } from "react-router";
 import { instance } from "../api/instance";
+import logo from "../image/btn.png"
 
 // const { Title } = Typography;
 const { Option } = Select;
@@ -31,7 +32,7 @@ instance.post("/login", {
       }}
     >
       <Image
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Bank_BTN_logo.svg/2560px-Bank_BTN_logo.svg.png"
+        src={ logo }
         style={{ width: "300px" }}
       />
       {/* <Title> Bank BTN</Title> */}
