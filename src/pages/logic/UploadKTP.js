@@ -31,7 +31,7 @@ function UploadKtp(props) {
                 <p className="ant-upload-drag-icon">
                     <InboxOutlined />
                 </p>
-                <p className="ant-upload-text">Upload File dalam bentuk PDF</p>
+                <p className="ant-upload-text">Upload KTP dalam bentuk PDF</p>
             </Dragger>
             
         </div>

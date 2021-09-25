@@ -31,7 +31,7 @@ function UploadSlipGaji(props) {
                 <p className="ant-upload-drag-icon">
                     <InboxOutlined />
                 </p>
-                <p className="ant-upload-text">Upload File dalam bentuk PDF</p>
+                <p className="ant-upload-text">Upload Slip Gaji dalam bentuk PDF</p>
             </Dragger>
             
         </div>
